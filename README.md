@@ -1,4 +1,4 @@
-# Twitch Clip to TikTok Formatter 🎬
+# Twitch Clip to TikTok Formatter
 
 This Python script automates the process of fetching a recent Twitch clip, reformatting it for vertical platforms like TikTok/Shorts (stacking webcam and gameplay), and adding word-by-word animated captions.
 

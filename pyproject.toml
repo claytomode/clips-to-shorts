@@ -1,0 +1,25 @@
+[project]
+name = "clips-to-shorts"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ffmpeg-python>=0.2.0",
+    "httpx>=0.28.1",
+    "moviepy>=2.2.1",
+    "opencv-python>=4.12.0.88",
+    "torch>=2.9.0",
+    "torchaudio>=2.9.0",
+    "torchvision>=0.24.0",
+    "whisper-timestamped>=1.15.9",
+    "yt-dlp>=2025.10.22",
+]
+
+[dependency-groups]
+dev = [
+    "pip>=25.3",
+]
+
+[[tool.uv.index]]
+url = "https://download.pytorch.org/whl/cu130"
